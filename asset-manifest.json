@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/food-order-app/static/css/main.0529c719.css",
+    "main.css": "/food-order-app/static/css/main.bb5aaca4.css",
     "main.js": "/food-order-app/static/js/main.d9364b8f.js",
     "static/js/787.ae0cd389.chunk.js": "/food-order-app/static/js/787.ae0cd389.chunk.js",
     "static/media/meals@2x.jpg": "/food-order-app/static/media/meals@2x.2971f633fc1382581cbf.jpg",
@@ -8,12 +8,12 @@
     "static/media/meals@1x.jpg": "/food-order-app/static/media/meals@1x.03920c76056883d1a050.jpg",
     "static/media/meals@1x.webp": "/food-order-app/static/media/meals@1x.e6d04947e71d372dd138.webp",
     "index.html": "/food-order-app/index.html",
-    "main.0529c719.css.map": "/food-order-app/static/css/main.0529c719.css.map",
+    "main.bb5aaca4.css.map": "/food-order-app/static/css/main.bb5aaca4.css.map",
     "main.d9364b8f.js.map": "/food-order-app/static/js/main.d9364b8f.js.map",
     "787.ae0cd389.chunk.js.map": "/food-order-app/static/js/787.ae0cd389.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0529c719.css",
+    "static/css/main.bb5aaca4.css",
     "static/js/main.d9364b8f.js"
   ]
 }
