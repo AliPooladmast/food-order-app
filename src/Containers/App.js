@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import Header from "../Components/Layout/Header";
 import Meals from "../Components/Meals/Meals";
 import Cart from "../Components/Cart/Cart";
-import { setIsCartShown } from "./actions";
 
 const mapStateToProps = (state) => ({
   IsCartShown: state.cartDisplay.IsCartShown,

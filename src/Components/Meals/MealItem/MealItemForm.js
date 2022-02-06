@@ -1,7 +1,6 @@
 import classes from "../../../Styles/MealItemForm.module.css";
 import Input from "../../UI/Input";
 import { connect } from "react-redux";
-import { setIsCartShown } from "../../../Containers/actions";
 import { setAddCart } from "../../../Containers/actions";
 
 const mapStateToProps = (state) => ({});
