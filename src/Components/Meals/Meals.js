@@ -1,6 +1,6 @@
 import { Fragment } from "react";
-import MealsSummary from "./MealsSummary";
-import AvailableMeals from "./AvailableMeals";
+import MealsSummary from "./MealsChildren/MealsSummary";
+import AvailableMeals from "./MealsChildren/AvailableMeals";
 
 const Meals = () => {
   return (

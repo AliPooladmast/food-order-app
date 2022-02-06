@@ -1,10 +1,11 @@
-import classes from "./Input.module.css";
+import classes from "../../Styles/Input.module.css";
 
 const Input = (props) => {
+  const { input, label } = props;
   return (
     <div className={classes.input}>
-      <label htmlFor={props.input.id}>{props.label}</label>
-      <input type="text" {...props.input} />
+      <label htmlFor={input.id}>{label}</label>
+      <input type="text" {...input} />
     </div>
   );
 };

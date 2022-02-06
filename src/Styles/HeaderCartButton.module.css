@@ -30,6 +30,10 @@
   margin-left: 1rem;
   font-weight: bold;
 }
+.text {
+  white-space: nowrap;
+  overflow: hidden;
+}
 
 .button:hover .badge,
 .button:active .badge {

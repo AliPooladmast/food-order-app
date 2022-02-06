@@ -1,15 +1,24 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { applyMiddleware, createStore } from "redux";
+import { combineReducers, applyMiddleware, createStore } from "redux";
 import { Provider } from "react-redux";
 import { createLogger } from "redux-logger";
-import { cartDisplay } from "./reducers";
-import "./index.css";
-import App from "./App";
+import {
+  cartDisplay,
+  cartItemChange,
+  buttonHighlight,
+} from "./Containers/reducers";
+import "./Styles/index.css";
+import App from "./Containers/App";
 import reportWebVitals from "./reportWebVitals";
 
 const logger = createLogger();
-const store = createStore(cartDisplay, applyMiddleware(logger));
+const reducer = combineReducers({
+  cartDisplay,
+  cartItemChange,
+  buttonHighlight,
+});
+const store = createStore(reducer, applyMiddleware(logger));
 
 ReactDOM.render(
   <React.StrictMode>

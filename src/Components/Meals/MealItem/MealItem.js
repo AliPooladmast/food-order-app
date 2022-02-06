@@ -1,17 +1,18 @@
-import classes from "./MealItem.module.css";
+import classes from "../../../Styles/MealItem.module.css";
 import MealItemFrom from "./MealItemForm";
 
 const MealItem = (props) => {
-  const price = props.price.toFixed(2);
+  const { id, name, description, price } = props;
+  const priceRounded = price.toFixed(2);
   return (
     <li className={classes.meal}>
       <div>
-        <h3>{props.name}</h3>
-        <div className={classes.description}>{props.description}</div>
-        <div className={classes.price}>{price}</div>
+        <h3>{name}</h3>
+        <div className={classes.description}>{description}</div>
+        <div className={classes.price}>{priceRounded}</div>
       </div>
       <div>
-        <MealItemFrom />
+        <MealItemFrom id={id} />
       </div>
     </li>
   );
