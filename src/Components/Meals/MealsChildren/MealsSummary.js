@@ -3,14 +3,11 @@ import classes from "../../../Styles/MealsSummary.module.css";
 const MealsSummary = () => {
   return (
     <section className={classes.summary}>
-      <h2>MealsSummary</h2>
+      <h2>Welcome!</h2>
       <p>
-        Choose your favorite meal from our broad selection of available meals
-        and enjoy a delicious lunch or dinner at home.
-      </p>
-      <p>
-        All our meals are cooked with high-quality ingredients, just-in-time and
-        of course by experienced chefs!
+        In here, you can find many delicious foods with our specific flavour.
+        Our food would be ordered and delivered only by a couple of clicks. We
+        are here to serve you the best and freshest food ever!
       </p>
     </section>
   );
